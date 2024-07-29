@@ -9,5 +9,4 @@ public interface UserRepository extends JpaRepository<User,Long> {
 
     boolean existsByAccountNumber(String accountNumber);
 
-    public User save(User userToCreate);
 }
